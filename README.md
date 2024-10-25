@@ -1,6 +1,9 @@
 # pan-panel
 A panel to view the [panphp/pan](https://github.com/panphp/pan) analytics in your panel.
 
+![image](https://github.com/user-attachments/assets/0d4cbd18-f120-44be-8910-520698980af6)
+
+
 ## Installation
 
 Install the package via composer:
