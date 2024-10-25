@@ -15,7 +15,12 @@ class BackpackPanServiceProvider extends ServiceProvider
             'prefix'     => config('backpack.base.route_prefix', 'admin'),
             'middleware' => ['web', config('backpack.base.middleware_key', 'admin')],
         ], function () {
-            Route::crud(config('backpack.pan.route_prefix'), Controllers\PanAnalyticsCrudController::class);
+            Route::crud(config('backpack.pan.route_prefix'), PanAnalyticsCrudController::class);
         });
+    }
+
+    public function boot()
+    {
+        $this->loadTranslationsFrom(realpath(__DIR__.'/../resources/lang'), 'backpack-pan');
     }
 }
