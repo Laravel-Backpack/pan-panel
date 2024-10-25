@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Backpack\\Pan\\BackpackPanFieldProvider"
+                "Backpack\\Pan\\BackpackPanServiceProvider"
             ]
         }
     }
