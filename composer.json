@@ -1,0 +1,24 @@
+{
+    "name": "backpack/pan-panel",
+    "description": "A pan analytics viewer",
+    "keywords": ["laravel", "backpack", "pan"],
+    "license": "MIT",
+    "require": {
+        "backpack/crud": "^6.0",
+        "panphp/pan": "^0.1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backpack\\Pan\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Backpack\\Pan\\BackpackPanFieldProvider"
+            ]
+        }
+    }
+}
