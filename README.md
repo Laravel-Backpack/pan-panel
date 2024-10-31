@@ -1,3 +1,6 @@
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Total Downloads][ico-downloads]][link-downloads]
+
 # pan-panel
 
 A package to easily view the [panphp/pan](https://github.com/panphp/pan) analytics in your Backpack admin panel. What is PAN?
@@ -49,3 +52,8 @@ Credits go to Nuno Maduro (the creator of PAN) and [Pedro Martins](https://githu
 
 This project was released under MIT License, so you can install it on top of any Backpack & Laravel project. Please see the license file for more information.
 
+[ico-version]: https://img.shields.io/packagist/v/backpack/pan-panel.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/backpack/pan-panel.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/backpack/pan-panel
+[link-downloads]: https://packagist.org/packages/backpack/pan-panel
