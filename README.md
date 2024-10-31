@@ -9,6 +9,9 @@ A package to easily view the [panphp/pan](https://github.com/panphp/pan) analyti
 
 <img width="1673" alt="backpack_pan_panel" src="https://github.com/user-attachments/assets/572d2b02-c069-4e41-b1f6-5b903d5b2ebd">
 
+## Demo
+
+You can preview the UI on [https://demo.backpackforlaravel.com/admin/analytics](https://demo.backpackforlaravel.com/admin/analytics). Play around with the welcome page, login page and the menu items, and see the records that PAN keeps.
 
 ## Installation
 
