@@ -1,7 +1,10 @@
 # pan-panel
-A package to view the [panphp/pan](https://github.com/panphp/pan) analytics in your panel.
 
-![image](https://github.com/user-attachments/assets/0d4cbd18-f120-44be-8910-520698980af6)
+A package to easily view the [panphp/pan](https://github.com/panphp/pan) analytics in your Backpack admin panel. What is PAN?
+
+> Pan is a lightweight and privacy-focused PHP product analytics library. It’s designed as a very simple package that you can install via `composer require` and start tracking your pages or components with a simple `data-pan` attribute.
+
+<img width="1673" alt="backpack_pan_panel" src="https://github.com/user-attachments/assets/572d2b02-c069-4e41-b1f6-5b903d5b2ebd">
 
 
 ## Installation
@@ -37,4 +40,12 @@ You can add an item to the menu in `resources/views/vendor/backpack/ui/inc/menu_
 #### Filters
 
 Backpack provide some out-of-the-box filters. To use them you should have `backpack/pro` installed. If you don't have it installed, enabling them in the config file does not have any effect. 
+
+## Credits
+
+Credits go to Nuno Maduro (the creator of PAN) and [Pedro Martins](https://github.com/pxpm), the Backpack core developer who created this package.
+
+## License
+
+This project was released under MIT License, so you can install it on top of any Backpack & Laravel project. Please see the license file for more information.
 
