@@ -40,7 +40,7 @@ php artisan pan:install
 You can add an item to the menu in `resources/views/vendor/backpack/ui/inc/menu_items.blade.php`:
 
 ```html
-<x-backpack::menu-item title="Analytics" icon="la la-dashboard" :link="backpack_url(config('backpack.pan.route_prefix'))" />
+<x-backpack::menu-item title="Analytics" icon="la la-dashboard" :link="backpack_url(config('backpack.pan.panel_route_prefix'))" />
 ```
 
 #### Filters
