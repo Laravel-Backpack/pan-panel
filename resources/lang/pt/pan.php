@@ -6,4 +6,5 @@ return [
     'hovers'      => 'Hovers',
     'name'        => 'Nome',
     'analytics'   => 'Estatisticas',
+    'tags'        => 'Tags',
 ];

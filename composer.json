@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "backpack/crud": "^6.0",
-        "panphp/pan": "^0.1.5"
+        "panphp/pan": "^0.1.7"
     },
     "autoload": {
         "psr-4": {
