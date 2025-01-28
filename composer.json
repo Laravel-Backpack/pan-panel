@@ -4,7 +4,7 @@
     "keywords": ["laravel", "backpack", "pan"],
     "license": "MIT",
     "require": {
-        "backpack/crud": "^6.0",
+        "backpack/crud": "7.0.0-alpha.1",
         "panphp/pan": "^0.1.7"
     },
     "autoload": {
